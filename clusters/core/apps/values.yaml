@@ -27,8 +27,8 @@ aws-efs-csi-driver:
   enable: false
 
 awx-operator:
-  createNamespace: false
-  enable: false
+  createNamespace: true
+  enable: true
 
 # -- Capsule
 capsule:
