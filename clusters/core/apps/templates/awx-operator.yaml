@@ -16,7 +16,7 @@ spec:
       releaseName: awx-operator
   destination:
     name: {{ .Values.destinationServer | default "in-cluster" }}
-    namespace: awx-operator
+    namespace: awx-operator-os
   syncPolicy:
     syncOptions:
       - CreateNamespace={{ (index .Values "awx-operator" "createNamespace") }}
