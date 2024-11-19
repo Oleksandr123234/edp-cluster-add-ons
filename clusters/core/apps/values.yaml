@@ -63,7 +63,7 @@ kuberocketci:
 kuberocketci-pipelines:
   enable: true
   namespace: edp-delivery-ms-dev
-  repoUrl: ssh://git@github.com:22/Oleksandr123234/tekton-custom-pipelines.git
+  repoURL: ssh://git@github.com:22/Oleksandr123234/tekton-custom-pipelines.git
 
 kuberocketci-rbac:
   createNamespace: false
