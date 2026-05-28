@@ -180,7 +180,7 @@ kuberocketci-pipelines:
   createNamespace: false
   enable: true
   namespace: edp-delivery-os-dev
-  repoUrl: ssh://git@github.com:22/Oleksandr123234/tekton-custom-pipelines.git
+  repoUrl: ssh://git@github.com:22/Oleksandr123234/custom-tekton-chart.git
 
 kuberocketci-rbac:
   createNamespace: false
