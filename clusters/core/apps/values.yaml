@@ -178,9 +178,9 @@ krakend:
 
 kuberocketci-pipelines:
   createNamespace: false
-  enable: true
-  namespace: edp-delivery-os-dev
-  repoUrl: ssh://git@github.com:22/Oleksandr123234/custom-tekton-chart.git
+  enable: false
+  namespace: krci
+  repoUrl: ssh://git@github.com:22/epmd-edp/helm-helm-pipeline.git
 
 kuberocketci-rbac:
   createNamespace: false
