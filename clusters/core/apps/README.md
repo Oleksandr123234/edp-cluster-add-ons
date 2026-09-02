@@ -93,9 +93,9 @@ EDP Cluster Addons that extend the Kubernetes Cluster Functionality
 | krakend.enable | bool | `false` |  |
 | krakend.namespace | string | `"krci-krakend"` |  |
 | kuberocketci-pipelines.createNamespace | bool | `false` |  |
-| kuberocketci-pipelines.enable | bool | `false` |  |
-| kuberocketci-pipelines.namespace | string | `"krci"` |  |
-| kuberocketci-pipelines.repoUrl | string | `"ssh://git@github.com:22/epmd-edp/helm-helm-pipeline.git"` |  |
+| kuberocketci-pipelines.enable | bool | `true` |  |
+| kuberocketci-pipelines.namespace | string | `"edp-delivery-os-dev"` |  |
+| kuberocketci-pipelines.repoUrl | string | `"ssh://git@github.com:22/Oleksandr123234/tekton-custom-pipelines.git"` |  |
 | kuberocketci-rbac.createNamespace | bool | `false` |  |
 | kuberocketci-rbac.enable | bool | `false` |  |
 | kuberocketci-rbac.namespace | string | `"krci-security"` |  |
